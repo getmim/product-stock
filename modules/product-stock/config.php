@@ -2,7 +2,7 @@
 
 return [
     '__name' => 'product-stock',
-    '__version' => '0.0.1',
+    '__version' => '0.0.2',
     '__git' => 'git@github.com:getmim/product-stock.git',
     '__license' => 'MIT',
     '__author' => [
@@ -32,6 +32,11 @@ return [
     'libFormatter' => [
         'formats' => [
             'product' => [
+                'stock' => [
+                    'type' => 'number'
+                ]
+            ],
+            'product-variant' => [
                 'stock' => [
                     'type' => 'number'
                 ]
